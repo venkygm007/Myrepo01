@@ -2,3 +2,4 @@ flask
 streamlit==1.36.0
 gunicorn
 pandas
+pyodbc

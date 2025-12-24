@@ -14,5 +14,5 @@ RUN pip install gunicorn
 # Make port 5000 available to the world outside this container
 EXPOSE 5000
 
-# Run app.py using gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+# Run gm_app.py using gunicorn
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "gm_app:app"]
